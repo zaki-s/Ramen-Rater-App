@@ -4,8 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramen Rater | EST 2025</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <div class="top">
+        <h1>Ramen Rater</h1>
+    </div>
+
+    <div class="images">
+        <img src="./images/gyukotsu.jpg" alt="Gyukotsu Ramen">
+        <img src="./images/shoyu.jpg" alt="Shoyu Ramen">
+        <img src="./images/nirvana.jpg" alt="Nirvana Ramen">
+        <img src="./images/naruto.jpg" alt="Ramen Image">
+        <img src="./images/shoyu.jpg" alt="Shoyu Ramen">
+    </div>
     
+    <div class="ramendeet">
+        <div id="deet-cont">
+            <div id="deet-image">
+                <img src="./images/naruto.jpg" alt="Ramen Image">
+            </div>
+            <div id="deet-text">
+                <h4>Shoyu Ramen</h4>
+                <p>Shoyu</p>
+            </div>
+        </div>
+        <h3>Rating:</h3>
+        <p>10/10</p>
+        <h3>Comment</h3>
+        <p>Insert comment here.</p>
+    </div>
+
+    <button id="addramen">Add New Ramen</button>
+
+    <div class="form">
+        <label for="nameput">Name</label>
+        <input type="text" id="nameput">
+
+        <label for="restaurantput">Restaurant</label>
+        <input type="text" id="restaurantput">
+
+        <label for="imageput">Rating</label>
+        <input type="number" id="imageput">
+
+        <label for="commentput">Comment</label>
+        <input type="text" id="commentput">
+
+        <button>Create</button>
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
