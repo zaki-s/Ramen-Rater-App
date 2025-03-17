@@ -1,5 +1,6 @@
 
 //the constants of the ramen data
+//took the consts on the canvas page and added the images i downloaded them into the consts
 const ramens = [
     { id: 1, name: "Gyukotsu Ramen", restaurant: "Ichiran", image: "./images/gyukotsu.jpg", rating: 5, comment: "Delicious!" },
     { id: 2, name: "Shoyu Ramen", restaurant: "Menya", image: "./images/shoyu.jpg", rating: 4, comment: "Very flavorful!" },

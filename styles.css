@@ -126,7 +126,7 @@
 }
 
 
-/*adding ramen and creating ramen form*/
+/*the form and the create button*/
 .form {
     display: flex;
     flex-direction: column;
