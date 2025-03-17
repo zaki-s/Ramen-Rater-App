@@ -26,27 +26,44 @@
 
 /*the Ramen display part of the page*/
 #deet-image {
+    position: relative;
     display: flex;
     justify-content: center; 
     align-items: center;
     width: 100%; 
     height: 100%;
     margin-top: 20px;
+    object-fit: cover
 }
 
 #deet-image img {
+    position: relative;
     max-width: 100%;
+    width: 500px;
+    height: auto;
     max-height: 100%;
     object-fit: contain;
 }
 
 #deet-text {
-    color: white;
     position: absolute;
-    top: 80%;
-    left: 5%;
-    
+    color: rgb(0, 0, 0);
+    top: 58%;
+    left: 37%;
+    object-fit: cover;
+    max-width: 90;
 }
+
+#deet-text h4 {
+    background-color: #e9e4e4;
+    padding: 5px;
+}
+
+#deet-text p {
+    background-color: #e9e4e4;
+    padding: 5px;
+}
+
 
 
 /*Rating part and comment part of the page*/
@@ -110,12 +127,16 @@
 
 .form button {
     background-color: #000000;
+    border: #ff0000;
     color: white;
-    border: none;
+    border: 1px solid #ccc;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    padding: 0.7rem 4rem;
 }
 
 .form button:hover {
-    background-color: #000000;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #000000;
 }
