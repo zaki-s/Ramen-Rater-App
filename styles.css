@@ -1,6 +1,6 @@
 
 
-/*The top part, the logo*/
+/*the top par or rather the logo*/
 .top {
     display: flex;
     justify-content: center;
@@ -66,7 +66,7 @@
 
 
 
-/*Rating part and comment part of the page*/
+/*rating part and comment part of the page*/
 #deet-text h4 {
 }  
 
@@ -99,6 +99,32 @@
 #deet-comment p {
     margin-top: -20px;
 }
+
+/*add new ramen button*/
+#addramenbtn {
+    background-color: #000000;
+    color: white; 
+    border: 1px solid #ccc;
+    padding: 0.7rem 4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    /*trying to force centre the add-ramen button*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    text-align: center;
+    width: fit-content;
+}
+
+#addramenbtn:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #000000;
+}
+
 
 /*adding ramen and creating ramen form*/
 .form {
